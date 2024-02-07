@@ -10,6 +10,6 @@ This project involves interacting with the Pokemon API using Python's `requests`
   - `test_pokemon_functions.py`: Includes pytest tests to verify the functionality of the functions in `pokemon_functions.py`.
 
 ## Dependencies
-- Python 3.x
+- Python 3.7
 - `requests` module for making HTTP requests
 - `pytest` framework for testing
