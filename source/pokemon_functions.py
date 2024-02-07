@@ -53,7 +53,7 @@ def get_types():
         print("An exception occurred")
 
 
-#get type id by pokemon name
+#get type id by pokemon type name
 def get_type_id(type_name):
     try:
         #get all pokemon types
