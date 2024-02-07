@@ -1,6 +1,6 @@
 import requests
 
-#the url base for all requests
+#the base url for all requests
 url_base = 'https://pokeapi.co/api/v2/'
 
 #get the response type of the request
