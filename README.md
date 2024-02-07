@@ -13,3 +13,10 @@ This project involves interacting with the Pokemon API using Python's `requests`
 - Python 3.7
 - `requests` module for making HTTP requests
 - `pytest` framework for testing
+<br/>
+<br/>
+<br/>
+
+  <picture>
+  <img alt="https://pbs.twimg.com/media/Co9AthZXYAE4Zs5.png" width="250" height="250">
+</picture>
