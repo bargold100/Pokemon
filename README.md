@@ -14,3 +14,10 @@ This project involves interacting with the Pokemon API using Python's `requests`
 - `requests` module for making HTTP requests
 - `pytest` framework for testing
 
+<br/>
+<br/>
+<br/>
+
+  <picture>
+  <img alt="Pkemon" src="https://pbs.twimg.com/media/Co9AthZXYAE4Zs5?format=png&name=small" width="250" height="250">
+</picture>
