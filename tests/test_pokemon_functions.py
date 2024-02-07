@@ -31,7 +31,7 @@ def test_bulbasaur_not_in_pokemon_list():
 
 
 def test_pokemon_names_wrong_type_id():
-    # the id of "Fire" type is 10
+    # there is no 0 type id
     result = pokemon_functions.pokemon_names(0)
     assert result is None
 
