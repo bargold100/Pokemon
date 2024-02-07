@@ -111,7 +111,7 @@ def get_pokemon_weight(pokemon_name):
 #find the five heaviest Pokémon of specific type id
 def top_five_heaviest(type_id):
     try:
-        # Extracting all 'name' values
+        # get all of the pokemon names that belong to the requested type id
         pokemon_names_list = pokemon_names(type_id)
 
         #get all pokemon names and theit weights
