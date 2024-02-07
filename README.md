@@ -1,7 +1,7 @@
 # Pokemon API Interaction Project
 
 ## Introduction
-This project involves interacting with the Pokemon API using Python's `requests` module. The purpose is to fetch data from the API and perform various operations using the retrieved data.
+This project involves interacting with the Pokemon API using Python's `requests` module. The purpose is to fetch data from the API, perform various operations using the retrieved data and test it.
 
 ## Project Structure
 - `source/`: Contains the source code for interacting with the Pokemon API.
