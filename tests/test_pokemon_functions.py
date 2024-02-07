@@ -17,6 +17,7 @@ def test_fire_type_id():
     result = pokemon_functions.get_type_id("Fire")
     assert result == 10
 
+
 def test_charmander_in_pokemon_list():
     # the id of "Fire" type is 10
     result = pokemon_functions.pokemon_names(10)
