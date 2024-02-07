@@ -36,6 +36,41 @@ def pokemon_type_number():
         print("An exception occurred")
 
 
+#get all pokemon types
+def get_types():
+    url = url_base + "type"
+
+    try:
+        response = requests.get(url)
+        if response.status_code != 200:
+            print(response.text)
+
+        else:
+            data = response.json()
+            return data['results']
+
+    except:
+        print("An exception occurred")
+
+
+#get type id by pokemon name
+def get_type_id(type_name):
+    try:
+        #get all pokemon types
+        pokemon_type_list = get_types()
+
+        # find the dictionary with the requested name
+        name_dict = next(item for item in pokemon_type_list if item['name'].lower() == type_name.lower())
+
+        # extract the ID from the URL
+        url = name_dict['url']
+        name_id = int(url.split('/')[-2])
+
+        return name_id
+    except:
+        print("An exception occurred")
+
+
 #get the pokemons names of specific type id
 def pokemon_names(type_id):
     url = f"{url_base}type/{type_id}"
@@ -98,4 +133,5 @@ def top_five_heaviest(type_id):
 
     except:
         print("An exception occurred")
+
 
