@@ -25,7 +25,7 @@ def test_bulbasaur_not_in_pokemon_list():
     assert "bulbasaur" not in result
 
 
-def test_pokemon_names_wrong_id_type():
+def test_pokemon_names_wrong_type_id():
     # the id of "Fire" type is 10
     result = pokemon_functions.pokemon_names(0)
     assert result is None
@@ -62,6 +62,6 @@ def test_groudon_primal_weight():
     assert result == 9997
 
 
-def test_top_5_wrong_type_number():
+def test_top_5_wrong_type_id_number():
     result = pokemon_functions.top_five_heaviest(0)
     assert result is None
